@@ -43,7 +43,6 @@ nav ul li::after{
 
 main {
     padding-top: 60px;
-    text-align: center;
 }
 
 .green-dotted-box {
@@ -53,4 +52,21 @@ main {
     margin: auto;
     margin-top: 200px;
     position:relative;
+    text-align: center;
+}
+
+img.image{
+    width: 200px;
+    height: 200px;
+    position: absolute
+}
+
+img.cat{
+    top: -100px;
+    left: -100px;
+}
+
+img.dog{
+    bottom: -100px;
+    right: -100px;
 }
