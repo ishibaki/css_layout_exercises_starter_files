@@ -1,0 +1,52 @@
+main.colored-boxes {
+    font-size: 0;
+}
+
+div.container {
+    width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.row-1 {
+    height: 200px;
+}
+
+.row-2 {
+    height: 300px;
+}
+
+.half-size {
+    width: 50%;
+    height: 100%;
+}
+
+.one-third-size {
+    width: 33.33%;
+    height: 100%;
+}
+
+.box {
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.grey {
+    background-color: grey;
+}
+
+.black {
+    background-color: black;
+}
+
+.orange {
+    background-color: orange;
+}
