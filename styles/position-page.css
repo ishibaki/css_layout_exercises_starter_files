@@ -31,3 +31,7 @@ nav ul li::after{
     margin-left: 3px;
 }
 
+body {
+    background: url("../images/outerspace_landscape.jpeg") no-repeat;
+    background-size: cover;
+}
