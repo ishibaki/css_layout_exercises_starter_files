@@ -1,3 +1,10 @@
+body {
+    background: url("../images/outerspace_landscape.jpeg") no-repeat;
+    background-size: cover;
+}
+
+/* --- navigation style --- */
+
 nav {
     padding-left: 60px;
     padding-right: 60px;
@@ -6,6 +13,7 @@ nav {
     background-color: grey;
     position: fixed;
 }
+
 
 .nav-icon {
     height: 40px;
@@ -31,7 +39,18 @@ nav ul li::after{
     margin-left: 3px;
 }
 
-body {
-    background: url("../images/outerspace_landscape.jpeg") no-repeat;
-    background-size: cover;
+/* --- contents style --- */
+
+main {
+    padding-top: 60px;
+    text-align: center;
+}
+
+.green-dotted-box {
+    border: 10px dotted green;
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    margin-top: 200px;
+    position:relative;
 }
